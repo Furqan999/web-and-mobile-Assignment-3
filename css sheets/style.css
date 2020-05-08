@@ -1,0 +1,160 @@
+
+/* Header CSS*/
+.mainheaderdiv {
+  background-color: #3071ce;
+  height: auto;
+ 
+}
+
+.header {
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  text-align: center;
+}
+.socialicons {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.headertext {
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+}
+.btn {
+  background-color: #f5f5f5f1;
+  color: green;
+  border: black;
+  padding: 4px;
+  font-size: 12px;
+}
+.headerimage{
+  height: 20px;
+  width: 20px;
+}
+
+
+/* navbar CSS*/
+.navimage{
+  height:40px ;
+  width: 220px;
+}
+button.navbar-toggler.float-right {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.nav{
+  background: #f7f8faed !important;
+}
+.dropdown-toggle::after {
+  border: none;
+  vertical-align: 0;
+}
+li.nav-item a{
+    color: rgb(15, 11, 11) !important;
+}  
+li.nav-item.active a {
+  border-radius: 18px;
+  background: rgb(31, 97, 190);
+  color: white !important;
+  padding: 6px 16px 6px 16px !important;
+}
+li.nav-item:hover a:not(.dropdown-item) {
+  border-radius: 18px;
+  background: rgb(31, 97, 190);
+  color: white !important;
+  padding: 6px 16px 6px 16px !important;
+}
+li.nav-item {
+  margin-left: 13px;
+}
+.markii{
+  background-color: #2a78e4;
+  color: rgb(255, 246, 246);
+  height: 30px;
+}
+
+.Introduction{
+  text-align: center;
+}
+.favopic{
+  text-align: center;
+}
+.green{
+  color: #42cc57;
+}
+.blue{
+  color: #2a78e4;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+.acheivement{
+  background-color: #125bc2;
+}
+
+.a-icon{
+  width: 50px;
+}
+.bar-text{
+
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.boxes{
+  background-color: white;
+  height: auto;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  width: 100%;
+}
+
+.furqi{
+  background-color: rgb(243, 243, 243);
+}
+
+.boximg{
+  width:70px;
+}
+.imagegallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Gimg{
+  width: 20%;
+
+}
+@media only screen and (max-width:550px){
+  .Gimg
+  {
+      width: 50%;
+  }   
+}
+
+.footie{
+  background-color: #25272e;
+}
+.grey{
+  color: rgb(163, 162, 162);
+}
+
+.lastrow{
+  background-color: #2a78e4;
+
+}
+.footerIcon{
+  width: 35px;
+}
